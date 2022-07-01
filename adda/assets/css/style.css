@@ -1460,6 +1460,7 @@ only screen and (max-width: 767.98px) {
 }
 
 .card {
+   
     border: none;
     border-radius: 0;
     padding: 30px;
@@ -1492,6 +1493,7 @@ only screen and (max-width: 767.98px) {
 .card.widget-item {
     padding: 25px;
     border-radius: 10px;
+   
 }
 
 .share-box-inner {
@@ -2254,6 +2256,7 @@ only screen and (max-width: 767.98px) {
     font-size: 20px;
     margin-left: auto;
     position: relative;
+  
 }
 
 .unorder-list .like-button .heart-color {
@@ -3589,10 +3592,73 @@ only screen and (max-width: 767.98px) {
 }
 .recent-widget{
     margin-top: 30px;
+    width: 321px;
 }
 .fa {
     font-size: 25px !important;
 }
 .unorder-list  a:hover {
     color: coral;
+}
+.suivant{
+    border: #FF6B00 solid 1px;
+    width: 72px;
+    height: 30px;
+    border-radius: 63px;
+    background-color: #FF6B00;
+    color: #ffff;
+    padding: 4px;
+}
+.add-thumb{
+    margin-left: 104px;
+   
+    
+}
+.add-thumb img{
+   width: 50px;
+    
+}
+.aide-div{
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    font-weight: bolder;
+    text-align: center;
+}
+.aide-div p{
+    font-weight: lighter;
+}
+.contact-btn{
+    border: #FF6B00 solid 1px;
+    width: 120px;
+    height: 35px;
+    margin-left: 75px;
+    text-align: center;
+    /* align-items: center; */
+    padding: 7px;
+    background-color: #FF6B00;
+   
+}
+.contact-btn button{
+    color: #ffff;
+}
+/* .lang{
+   
+   border-radius: 100%;
+   width: 10px;
+   padding: 10px;
+   height: 10px;
+   margin-left: 10px;
+} */
+.line{
+    border: #868585 solid 0;
+}
+.fa.fa-picture-o {
+    color: #FF6B00 ;
+  
+}
+.fa.fa-picture-o span {
+    color: #161514 ;
+    font-size: 1rem;
+  
 }
