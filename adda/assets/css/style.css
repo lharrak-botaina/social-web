@@ -35,6 +35,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+
 a {
     -webkit-transition: 0.4s;
     -o-transition: 0.4s;
@@ -396,7 +397,7 @@ textarea:focus {
     -o-transition: 0.4s;
     transition: 0.4s;
     border-radius: 50%;
-    background-color: #dc4734;
+    background-color: #FF6B00;
     -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
     box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
 }
@@ -1255,11 +1256,12 @@ only screen and (max-width: 767.98px) {
     top: 0;
     left: 0;
     position: fixed;
+background-color: #ffff;
     height: 82px;
     width: 100%;
     z-index: 9;
     -webkit-box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.2);
+   
 }
 
 /*------ sticky menu style end ------*/
@@ -1283,10 +1285,10 @@ only screen and (max-width: 767.98px) {
 
 .mobile-logo,
 .mobile-header-profile {
-    width: 80px;
+    width: 111px;
     height: 100%;
     text-align: center;
-    background-color: #dc4734;
+    
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1303,7 +1305,7 @@ only screen and (max-width: 767.98px) {
 
 .mobile-logo .profile-thumb-middle,
 .mobile-header-profile .profile-thumb-middle {
-    border-radius: 0;
+    border-radius: 50%;
 }
 
 .mobile-menu ul {
@@ -1463,12 +1465,10 @@ only screen and (max-width: 767.98px) {
 .card {
    
     border: none;
-    border-radius: 0;
+    border-radius: 10px;
     padding: 30px;
     margin-bottom: 30px;
-    -webkit-box-shadow: 0px 1px 15px 0px rgba(51, 51, 51, 0.2);
-    box-shadow: 0px 1px 15px 0px rgba(51, 51, 51, 0.2);
-    
+   
     padding-left: 20px;
 
 }
@@ -1505,11 +1505,18 @@ only screen and (max-width: 767.98px) {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    width: 505px;
 }
 
 .share-text-box {
     position: relative;
     padding-left: 15px;
+}
+.share-text-field {
+    width: 454px;
+    height: 45px;
+    border-radius: 50px;
+    padding: 9px 85px 4px 21px;
 }
 
 .share-text-box .share-text-field {
@@ -1518,7 +1525,7 @@ only screen and (max-width: 767.98px) {
     align-items: center;
     display: block;
     height: 40px;
-    padding: 13px 90px 13px 20px;
+    padding: 9px 90px 13px 20px;
     position: relative;
     border-radius: 50px;
     overflow: hidden;
@@ -1591,13 +1598,13 @@ only screen and (max-width: 767.98px) {
 
 .posted-author .post-time {
     display: block;
-    font-size: 14px;
+    font-size: 0.7rem;
     line-height: 1;
     padding-top: 10px;
 }
 
 .author {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 800;
     line-height: 1;
     text-transform: capitalize;
@@ -1618,9 +1625,11 @@ only screen and (max-width: 767.98px) {
     cursor: pointer;
 }
 
+
 .post-settings-bar span {
-    width: 20px;
-    height: 1px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
     display: block;
     background-color: #ccc;
     margin-bottom: 4px;
@@ -1634,7 +1643,7 @@ only screen and (max-width: 767.98px) {
 }
 
 .post-settings-bar:hover span {
-    background-color: #dc4734;
+    background-color: #FF6B00;
 }
 
 .post-settings-bar:hover .post-settings {
@@ -1683,7 +1692,7 @@ only screen and (max-width: 767.98px) {
 }
 
 .post-settings li button:hover {
-    color: #dc4734;
+    color: #FF6B00;
 }
 
 .post-settings li button:last-child {
@@ -1718,10 +1727,13 @@ only screen and (max-width: 767.98px) {
 
 .post-content {
     padding-top: 18px;
+    line-height: 1.1em;
 }
 
 .post-desc {
     padding-bottom: 16px;
+   
+
 }
 
 .post-desc-secondary {
@@ -1843,7 +1855,7 @@ only screen and (max-width: 767.98px) {
     display: block;
     border-radius: 50%;
     overflow: hidden;
-    border: #444444 solid 1px;
+    border: #a8a7a7 solid 1px;
 }
 
 .profile-setting-box {
@@ -1935,7 +1947,8 @@ only screen and (max-width: 767.98px) {
     display: block;
     border-radius: 50%;
     overflow: hidden;
-    border: #444444 solid 1px;
+    border: #a8a7a7 solid 1px;
+    margin-bottom: 2px;
 }
 
 .profile-thumb.active {
@@ -2172,7 +2185,7 @@ only screen and (max-width: 767.98px) {
     font-weight: 700;
     color: #333333;
     margin-bottom: 45px;
-    text-transform: capitalize;
+ 
     position: relative;
 }
 
@@ -2182,15 +2195,7 @@ only screen and (max-width: 767.98px) {
     }
 }
 
-.widget-title:before {
-    bottom: -12px;
-    left: 0;
-    width: 30px;
-    height: 1px;
-    content: "";
-    position: absolute;
-    background-color: #dc4734;
-}
+ 
 
 /*------- widget title end -------*/
 /*------- like page list wrapper start -------*/
@@ -3606,7 +3611,7 @@ only screen and (max-width: 767.98px) {
    margin-top: 10px;
 }
 #notification{
-    width: 20px;
+    width: 27px;
     margin-right: 20px;
 }
 .recent-widget{
@@ -3629,7 +3634,7 @@ only screen and (max-width: 767.98px) {
     border-radius: 63px;
     background-color: #FF6B00;
     color: #ffff;
-    padding: 4px;
+    padding: 3px;
 }
 .add-thumb{
     margin-left: 104px;
@@ -3687,7 +3692,7 @@ only screen and (max-width: 767.98px) {
   
 }
 .temps{
-    font-size: 0.8rem !important;
+    font-size: 0.7rem !important;
 }
 .like-comment{
     display: flex;
@@ -3699,7 +3704,7 @@ only screen and (max-width: 767.98px) {
    justify-content: space-between;
     width: 540px;
     margin-left: -20px;
-    height: 57px;
+    height: 74px;
 }
 button.btn.btn-primary {
     background-color: #ff6b00;
@@ -3708,7 +3713,7 @@ button.btn.btn-primary {
     padding: 4px 16px;
     float: right;
     margin-right: 20px;
-    margin-top: 9px;
+    margin-top: 19px;
     height: 32px;
     font-size: 0.8rem;
     
@@ -3717,9 +3722,11 @@ button.btn.btn-primary {
     display: flex;
     flex-direction: column;
     margin-left: 30px;
+    margin-top: 14px;
 }
+
 .lien-site p{
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin-bottom: 0px;
 
 }
@@ -3795,3 +3802,209 @@ span.tag-standard {
     display: flex;
     justify-content: space-around;
 }
+
+
+
+.profile-comment{
+    margin-right: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.card-commet{
+    padding-left: 0px;
+
+}
+
+
+.comment{
+   display: flex;
+   justify-content: space-between;
+    margin-left: 10px;
+    background-color: #9f9f9f4f;
+    border-radius: 10px;
+    padding: 9px;
+    color: #9f9f9ffc;
+    font-size: 0.8rem;
+    height: 95px;
+}
+.img-comment{
+    margin-top: 27px;
+}
+.comment h6{
+    font-size: 0.8rem;
+}
+
+.button-dots {
+    height: 18px;
+  }
+.dots {
+    color: #444444;
+    font-size: 36px; /* The size of the dots */
+    line-height: 0; /* helps vertically position the dots */
+    margin-top: -10px; /* helps "raise" the dots higher */
+    letter-spacing: -2px; /* "squeezes" the dots closer together */
+}
+.comment-review{
+    display: flex;
+    margin-left: 74px;
+    padding: 7px;
+}
+.comment-review span{
+    padding: 2px;
+}
+.span-like{
+    margin-top:29px;
+}
+.second-comment{
+    margin-left: 36px;
+}
+.comment-2{
+    height: 72px;
+    width: 412px;
+
+}
+.review-2{
+    margin-left: 107px;
+}
+.footer{
+    font-size: 0.8rem;
+}
+
+
+
+
+
+
+
+#toggle {
+    margin-top: 228px ;
+    display: block;
+    width: 28px;
+    height: 30px;
+
+   
+  }
+  
+  #toggle span:after,
+  #toggle span:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -9px;
+  }
+  #toggle span:after{
+    top: 9px;
+  }
+  #toggle span {
+    position: relative;
+    display: block;
+  }
+  
+  #toggle span,
+  #toggle span:after,
+  #toggle span:before {
+    width: 100%;
+    height: 5px;
+    background-color: #888;
+    transition: all 0.3s;
+    backface-visibility: hidden;
+    border-radius: 2px;
+  }
+  
+  /* on activation */
+  #toggle.on span {
+    background-color: transparent;
+  }
+  #toggle.on span:before {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  #toggle.on span:after {
+    transform: rotate(-45deg) translate(7px, -8px);
+  }
+  #toggle.on + #menu {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  /* menu appearance*/
+  .menu{
+
+  }
+  #menu {
+   
+    position: relative;
+    color: #999;
+    width: 200px;
+    padding: 10px;
+    
+    font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+    text-align: center;
+    border-radius: 4px;
+    background: white;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.05);
+    /* just for this demo */
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .4s;
+  }
+  #menu:after {
+    position: absolute;
+    top: -15px;
+    left: 95px;
+    content: "";
+    display: block;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 20px solid white;
+  }
+  ul, li, li a {
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  li a {
+    padding: 5px;
+    color: #888;
+    text-decoration: none;
+    transition: all .2s;
+  }
+  
+  
+  /* demo styles */
+  body { margin-top: 3em; background: #eee; color: #555; font-family: "Open Sans", "Segoe UI", Helvetica, Arial, sans-serif; }
+  p, p a { font-size: 12px;text-align: center; color: #888; }
+
+
+  @media only screen and (max-width: 1000px) {
+   
+    .widget-item{
+        display: none;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+   
+    .widget-item{
+        display: none;
+    }
+    .comment-2{
+        width: 340px !important;
+    }
+    .comment{
+        width: 386px;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+   
+    
+    .comment-2{
+        width: 296px !important;
+    }
+    .comment{
+        width: 330px;
+    }
+    .share-text-field{
+        width: 339px;
+    }
+    
+  }
