@@ -1803,6 +1803,7 @@ only screen and (max-width: 767.98px) {
     vertical-align: middle;
     display: flex;
     flex-direction: column;
+    font-size: 20px !important;
    
 }
 
@@ -3973,17 +3974,69 @@ span.tag-standard {
   
   /* demo styles */
   body { margin-top: 3em; background: #eee; color: #555; font-family: "Open Sans", "Segoe UI", Helvetica, Arial, sans-serif; }
-  p, p a { font-size: 12px;text-align: center; color: #888; }
+  p, p a { font-size: 12px;text-align: justify; color: #888; }
 
 
-  @media only screen and (max-width: 1000px) {
-   
+  @media only screen and (max-width: 1200px) {
+    
     .widget-item{
         display: none;
     }
+    .lien-post{
+        width: 450px;
+    }
+    .offre-container{
+        width: 410px;
+    }
+    .fourniture img{
+        width: 187px;
+    }
+    #infinity{
+        margin-top: 85px;
+    }
+    .share-text-field{
+        width: 373px;
+    }
+    .share-box-inner{
+        width: 420px;
+    }
+    .comment-2{
+        width: 323px;
+    }
   }
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 1199px) {
+    .share-text-box .share-text-field{
+        width: 100%;
+    }
+    .mobile-logo, .mobile-header-profile{
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+    #logo-desky{
+        margin-right:110px !important;
+        margin-bottom: 19px;
+    }
    
+  }
+  @media only screen and (max-width: 1000px ) {
+
+    .lien-post{
+        width: 470px;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .share-text-box .share-text-field {
+        width: 94%;
+    }
+    
+    .mobile-logo, .mobile-header-profile{
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+    #logo-desky{
+        margin-right:110px !important;
+        margin-bottom: 19px;
+    }
     .widget-item{
         display: none;
     }
@@ -3993,10 +4046,35 @@ span.tag-standard {
     .comment{
         width: 386px;
     }
+    .lien-post{
+        width: 470px;
+    }
+    .offre-container{
+        width: 426px;
+    }
+    .fourniture img{
+        width: 177px;
+    }
+    #infinity{
+        margin-top:80px ;
+    }
+    .share-text-box .share-text-field{
+        width: 83%;
+    }
+    .share-text-field{
+        width: 384px;
+    }
   }
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 600px) {
    
-    
+    .mobile-logo, .mobile-header-profile{
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+    #logo-desky{
+        margin-right:157px !important;
+        margin-bottom: 19px;
+    }
     .comment-2{
         width: 296px !important;
     }
@@ -4006,5 +4084,29 @@ span.tag-standard {
     .share-text-field{
         width: 339px;
     }
+    .lien-post{
+        width: 470px;
+    }
+    .offre-container{
+        width: 380px;
+    }
+    .offre-price{
+        margin-top: 5px;
+    }
+  }
+  @media only screen and (max-width: 570px) {
+   
     
+   
+    .lien-post{
+        width: 420px;
+    }
+    .mobile-logo, .mobile-header-profile{
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+    #logo-desky{
+        margin-right: 230px !important;
+        margin-bottom: 19px;
+    }
   }
